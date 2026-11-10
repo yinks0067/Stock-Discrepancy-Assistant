@@ -1,0 +1,242 @@
+[
+  {
+    "sku": "SKU0002",
+    "name": "White Loaf Large",
+    "cause": "unrecorded_wastage",
+    "role": "missing",
+    "sibling": null,
+    "units_missing": 55,
+    "evaluated": true,
+    "note": null
+  },
+  {
+    "sku": "SKU0006",
+    "name": "Croissants Large",
+    "cause": "unrecorded_wastage",
+    "role": "missing",
+    "sibling": null,
+    "units_missing": 46,
+    "evaluated": true,
+    "note": null
+  },
+  {
+    "sku": "SKU0031",
+    "name": "Free Range Eggs",
+    "cause": "unrecorded_wastage",
+    "role": "missing",
+    "sibling": null,
+    "units_missing": 49,
+    "evaluated": true,
+    "note": null
+  },
+  {
+    "sku": "SKU0043",
+    "name": "Avocados",
+    "cause": "unrecorded_wastage",
+    "role": "missing",
+    "sibling": null,
+    "units_missing": 49,
+    "evaluated": true,
+    "note": null
+  },
+  {
+    "sku": "SKU0063",
+    "name": "Chopped Tomatoes",
+    "cause": "missed_delivery",
+    "role": "missing",
+    "sibling": null,
+    "units_missing": 50,
+    "evaluated": true,
+    "note": "Delivery DN11831 booked in but never arrived"
+  },
+  {
+    "sku": "SKU0066",
+    "name": "Tuna Chunks Value",
+    "cause": "missed_delivery",
+    "role": "missing",
+    "sibling": null,
+    "units_missing": 35,
+    "evaluated": true,
+    "note": "Delivery DN11864 booked in but never arrived"
+  },
+  {
+    "sku": "SKU0077",
+    "name": "Penne Pasta 500g",
+    "cause": "scanning_error",
+    "role": "extra",
+    "sibling": "SKU0078",
+    "units_missing": -15,
+    "evaluated": false,
+    "note": null
+  },
+  {
+    "sku": "SKU0078",
+    "name": "Penne Pasta 500g Wholegrain",
+    "cause": "scanning_error",
+    "role": "missing",
+    "sibling": "SKU0077",
+    "units_missing": 15,
+    "evaluated": true,
+    "note": null
+  },
+  {
+    "sku": "SKU0084",
+    "name": "Cornflakes Wholegrain",
+    "cause": "double_counted_delivery",
+    "role": "missing",
+    "sibling": null,
+    "units_missing": 7,
+    "evaluated": true,
+    "note": "Delivery DN12082 booked in twice"
+  },
+  {
+    "sku": "SKU0086",
+    "name": "Plain Flour Wholegrain",
+    "cause": "double_counted_delivery",
+    "role": "missing",
+    "sibling": null,
+    "units_missing": 24,
+    "evaluated": true,
+    "note": "Delivery DN12107 booked in twice"
+  },
+  {
+    "sku": "SKU0093",
+    "name": "Orange Juice 1L",
+    "cause": "missed_delivery",
+    "role": "missing",
+    "sibling": null,
+    "units_missing": 39,
+    "evaluated": true,
+    "note": "Delivery DN12188 booked in but never arrived"
+  },
+  {
+    "sku": "SKU0097",
+    "name": "Sparkling Water 6pk",
+    "cause": "double_counted_delivery",
+    "role": "missing",
+    "sibling": null,
+    "units_missing": 51,
+    "evaluated": true,
+    "note": "Delivery DN12235 booked in twice"
+  },
+  {
+    "sku": "SKU0101",
+    "name": "Energy Drink 4pk",
+    "cause": "scanning_error",
+    "role": "missing",
+    "sibling": "SKU0102",
+    "units_missing": 12,
+    "evaluated": true,
+    "note": null
+  },
+  {
+    "sku": "SKU0102",
+    "name": "Energy Drink 4pk Zero",
+    "cause": "scanning_error",
+    "role": "extra",
+    "sibling": "SKU0101",
+    "units_missing": -12,
+    "evaluated": false,
+    "note": null
+  },
+  {
+    "sku": "SKU0104",
+    "name": "Lemonade 2L Zero",
+    "cause": "double_counted_delivery",
+    "role": "missing",
+    "sibling": null,
+    "units_missing": 35,
+    "evaluated": true,
+    "note": "Delivery DN12318 booked in twice"
+  },
+  {
+    "sku": "SKU0108",
+    "name": "Electric Toothbrush Heads Sensitive",
+    "cause": "missed_delivery",
+    "role": "missing",
+    "sibling": null,
+    "units_missing": 13,
+    "evaluated": true,
+    "note": "Delivery DN12371 booked in but never arrived"
+  },
+  {
+    "sku": "SKU0109",
+    "name": "Face Moisturiser",
+    "cause": "scanning_error",
+    "role": "missing",
+    "sibling": "SKU0110",
+    "units_missing": 17,
+    "evaluated": true,
+    "note": null
+  },
+  {
+    "sku": "SKU0110",
+    "name": "Face Moisturiser Sensitive",
+    "cause": "scanning_error",
+    "role": "extra",
+    "sibling": "SKU0109",
+    "units_missing": -17,
+    "evaluated": false,
+    "note": null
+  },
+  {
+    "sku": "SKU0113",
+    "name": "Deodorant",
+    "cause": "shrinkage",
+    "role": "missing",
+    "sibling": null,
+    "units_missing": 19,
+    "evaluated": true,
+    "note": null
+  },
+  {
+    "sku": "SKU0114",
+    "name": "Deodorant Sensitive",
+    "cause": "shrinkage",
+    "role": "missing",
+    "sibling": null,
+    "units_missing": 9,
+    "evaluated": true,
+    "note": null
+  },
+  {
+    "sku": "SKU0116",
+    "name": "Shampoo 400ml Sensitive",
+    "cause": "shrinkage",
+    "role": "missing",
+    "sibling": null,
+    "units_missing": 11,
+    "evaluated": true,
+    "note": null
+  },
+  {
+    "sku": "SKU0119",
+    "name": "Gin 70cl",
+    "cause": "scanning_error",
+    "role": "missing",
+    "sibling": "SKU0120",
+    "units_missing": 9,
+    "evaluated": true,
+    "note": null
+  },
+  {
+    "sku": "SKU0120",
+    "name": "Gin 70cl Premium",
+    "cause": "scanning_error",
+    "role": "extra",
+    "sibling": "SKU0119",
+    "units_missing": -9,
+    "evaluated": false,
+    "note": null
+  },
+  {
+    "sku": "SKU0121",
+    "name": "Red Wine",
+    "cause": "shrinkage",
+    "role": "missing",
+    "sibling": null,
+    "units_missing": 9,
+    "evaluated": true,
+    "note": null
+  }
+]

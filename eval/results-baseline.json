@@ -1,0 +1,162 @@
+[
+  {
+    "sku": "SKU0002",
+    "name": "White Loaf Large",
+    "expected": "unrecorded_wastage",
+    "predicted": "unrecorded_wastage",
+    "confidence": "medium",
+    "ok": true
+  },
+  {
+    "sku": "SKU0006",
+    "name": "Croissants Large",
+    "expected": "unrecorded_wastage",
+    "predicted": "unrecorded_wastage",
+    "confidence": "medium",
+    "ok": true
+  },
+  {
+    "sku": "SKU0031",
+    "name": "Free Range Eggs",
+    "expected": "unrecorded_wastage",
+    "predicted": "unrecorded_wastage",
+    "confidence": "medium",
+    "ok": true
+  },
+  {
+    "sku": "SKU0043",
+    "name": "Avocados",
+    "expected": "unrecorded_wastage",
+    "predicted": "unrecorded_wastage",
+    "confidence": "medium",
+    "ok": true
+  },
+  {
+    "sku": "SKU0063",
+    "name": "Chopped Tomatoes",
+    "expected": "missed_delivery",
+    "predicted": "missed_delivery",
+    "confidence": "medium",
+    "ok": true
+  },
+  {
+    "sku": "SKU0066",
+    "name": "Tuna Chunks Value",
+    "expected": "missed_delivery",
+    "predicted": "missed_delivery",
+    "confidence": "medium",
+    "ok": true
+  },
+  {
+    "sku": "SKU0078",
+    "name": "Penne Pasta 500g Wholegrain",
+    "expected": "scanning_error",
+    "predicted": "scanning_error",
+    "confidence": "high",
+    "ok": true
+  },
+  {
+    "sku": "SKU0084",
+    "name": "Cornflakes Wholegrain",
+    "expected": "double_counted_delivery",
+    "predicted": "double_counted_delivery",
+    "confidence": "high",
+    "ok": true
+  },
+  {
+    "sku": "SKU0086",
+    "name": "Plain Flour Wholegrain",
+    "expected": "double_counted_delivery",
+    "predicted": "double_counted_delivery",
+    "confidence": "high",
+    "ok": true
+  },
+  {
+    "sku": "SKU0093",
+    "name": "Orange Juice 1L",
+    "expected": "missed_delivery",
+    "predicted": "missed_delivery",
+    "confidence": "medium",
+    "ok": true
+  },
+  {
+    "sku": "SKU0097",
+    "name": "Sparkling Water 6pk",
+    "expected": "double_counted_delivery",
+    "predicted": "double_counted_delivery",
+    "confidence": "high",
+    "ok": true
+  },
+  {
+    "sku": "SKU0101",
+    "name": "Energy Drink 4pk",
+    "expected": "scanning_error",
+    "predicted": "scanning_error",
+    "confidence": "high",
+    "ok": true
+  },
+  {
+    "sku": "SKU0104",
+    "name": "Lemonade 2L Zero",
+    "expected": "double_counted_delivery",
+    "predicted": "double_counted_delivery",
+    "confidence": "high",
+    "ok": true
+  },
+  {
+    "sku": "SKU0108",
+    "name": "Electric Toothbrush Heads Sensitive",
+    "expected": "missed_delivery",
+    "predicted": "missed_delivery",
+    "confidence": "medium",
+    "ok": true
+  },
+  {
+    "sku": "SKU0109",
+    "name": "Face Moisturiser",
+    "expected": "scanning_error",
+    "predicted": "scanning_error",
+    "confidence": "high",
+    "ok": true
+  },
+  {
+    "sku": "SKU0113",
+    "name": "Deodorant",
+    "expected": "shrinkage",
+    "predicted": "shrinkage",
+    "confidence": "low",
+    "ok": true
+  },
+  {
+    "sku": "SKU0114",
+    "name": "Deodorant Sensitive",
+    "expected": "shrinkage",
+    "predicted": "shrinkage",
+    "confidence": "low",
+    "ok": true
+  },
+  {
+    "sku": "SKU0116",
+    "name": "Shampoo 400ml Sensitive",
+    "expected": "shrinkage",
+    "predicted": "missed_delivery",
+    "confidence": "medium",
+    "ok": false
+  },
+  {
+    "sku": "SKU0119",
+    "name": "Gin 70cl",
+    "expected": "scanning_error",
+    "predicted": "scanning_error",
+    "confidence": "high",
+    "ok": true
+  },
+  {
+    "sku": "SKU0121",
+    "name": "Red Wine",
+    "expected": "shrinkage",
+    "predicted": "shrinkage",
+    "confidence": "low",
+    "ok": true
+  }
+]

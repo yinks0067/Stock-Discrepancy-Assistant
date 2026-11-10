@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push: { branches: [main] }
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env: { POSTGRES_USER: app, POSTGRES_PASSWORD: app, POSTGRES_DB: stock }
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U app -d stock" --health-interval 2s --health-retries 20
+    env:
+      DATABASE_URL: postgresql://app:app@localhost:5432/stock
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - run: npm run generate
+      - run: npm run db:reset
+      - run: npm run typecheck
+      - run: npm test
+      - name: Baseline accuracy on the 20 planted cases
+        run: npm run eval:baseline
+      - name: AI agent accuracy (only when the API key secret is set)
+        if: ${{ env.ANTHROPIC_API_KEY != '' }}
+        run: npm run eval
+      - run: npm run build
+
+  docker:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t stock-discrepancy-assistant .

@@ -1,0 +1,129 @@
+sku,name,category,unit_cost,unit_price,perishable
+SKU0001,"White Loaf",Bakery,1.12,1.61,true
+SKU0002,"White Loaf Large",Bakery,1.23,1.66,true
+SKU0003,"Wholemeal Loaf",Bakery,0.73,1.09,true
+SKU0004,"Wholemeal Loaf Large",Bakery,0.78,1.07,true
+SKU0005,"Croissants",Bakery,1.29,1.80,true
+SKU0006,"Croissants Large",Bakery,1.39,2.09,true
+SKU0007,"Bagels",Bakery,0.40,0.58,true
+SKU0008,"Bagels Large",Bakery,0.40,0.59,true
+SKU0009,"Crumpets",Bakery,0.72,0.95,true
+SKU0010,"Crumpets Large",Bakery,0.80,1.17,true
+SKU0011,"Pitta Bread",Bakery,0.61,0.95,true
+SKU0012,"Pitta Bread Large",Bakery,0.68,0.95,true
+SKU0013,"Brioche Rolls",Bakery,0.44,0.58,true
+SKU0014,"Brioche Rolls Large",Bakery,0.48,0.66,true
+SKU0015,"Tortilla Wraps",Bakery,0.65,0.90,true
+SKU0016,"Tortilla Wraps Large",Bakery,0.73,1.06,true
+SKU0017,"Semi-Skimmed Milk 2L",Dairy,1.15,1.60,true
+SKU0018,"Semi-Skimmed Milk 2L Organic",Dairy,1.26,1.90,true
+SKU0019,"Whole Milk 2L",Dairy,2.63,3.49,true
+SKU0020,"Whole Milk 2L Organic",Dairy,2.80,4.43,true
+SKU0021,"Greek Yoghurt",Dairy,0.76,0.99,true
+SKU0022,"Greek Yoghurt Organic",Dairy,0.81,1.20,true
+SKU0023,"Cheddar 400g",Dairy,0.68,1.03,true
+SKU0024,"Cheddar 400g Organic",Dairy,0.71,1.07,true
+SKU0025,"Butter 250g",Dairy,1.70,2.63,true
+SKU0026,"Butter 250g Organic",Dairy,1.95,2.86,true
+SKU0027,"Double Cream",Dairy,1.50,2.21,true
+SKU0028,"Double Cream Organic",Dairy,1.63,2.28,true
+SKU0029,"Mozzarella",Dairy,1.18,1.69,true
+SKU0030,"Mozzarella Organic",Dairy,1.30,2.08,true
+SKU0031,"Free Range Eggs",Dairy,1.49,2.18,true
+SKU0032,"Free Range Eggs Organic",Dairy,1.51,2.28,true
+SKU0033,"Bananas",Fruit & Veg,1.56,2.45,true
+SKU0034,"Bananas Value",Fruit & Veg,1.67,2.58,true
+SKU0035,"Apples",Fruit & Veg,1.86,2.52,true
+SKU0036,"Apples Value",Fruit & Veg,2.06,2.82,true
+SKU0037,"Strawberries",Fruit & Veg,0.56,0.84,true
+SKU0038,"Strawberries Value",Fruit & Veg,0.58,0.86,true
+SKU0039,"Salad Bag",Fruit & Veg,0.82,1.26,true
+SKU0040,"Salad Bag Value",Fruit & Veg,0.84,1.31,true
+SKU0041,"Tomatoes",Fruit & Veg,0.32,0.49,true
+SKU0042,"Tomatoes Value",Fruit & Veg,0.36,0.57,true
+SKU0043,"Avocados",Fruit & Veg,1.27,1.84,true
+SKU0044,"Avocados Value",Fruit & Veg,1.28,1.93,true
+SKU0045,"Carrots",Fruit & Veg,0.77,1.06,true
+SKU0046,"Carrots Value",Fruit & Veg,0.77,1.05,true
+SKU0047,"Broccoli",Fruit & Veg,1.22,1.95,true
+SKU0048,"Broccoli Value",Fruit & Veg,1.25,1.84,true
+SKU0049,"Chicken Breast",Meat & Fish,3.78,5.41,true
+SKU0050,"Chicken Breast Large Pack",Meat & Fish,4.17,5.92,true
+SKU0051,"Beef Mince",Meat & Fish,6.03,8.43,true
+SKU0052,"Beef Mince Large Pack",Meat & Fish,6.58,9.63,true
+SKU0053,"Salmon Fillets",Meat & Fish,3.06,4.28,true
+SKU0054,"Salmon Fillets Large Pack",Meat & Fish,3.21,4.82,true
+SKU0055,"Pork Sausages",Meat & Fish,2.76,4.16,true
+SKU0056,"Pork Sausages Large Pack",Meat & Fish,2.81,3.92,true
+SKU0057,"Bacon Rashers",Meat & Fish,4.60,6.27,true
+SKU0058,"Bacon Rashers Large Pack",Meat & Fish,4.86,7.36,true
+SKU0059,"Cod Fillets",Meat & Fish,5.65,8.09,true
+SKU0060,"Cod Fillets Large Pack",Meat & Fish,6.39,9.31,true
+SKU0061,"Baked Beans 415g",Tins & Jars,1.28,1.84,false
+SKU0062,"Baked Beans 415g Value",Tins & Jars,1.40,2.16,false
+SKU0063,"Chopped Tomatoes",Tins & Jars,0.73,1.07,false
+SKU0064,"Chopped Tomatoes Value",Tins & Jars,0.78,1.22,false
+SKU0065,"Tuna Chunks",Tins & Jars,1.12,1.47,false
+SKU0066,"Tuna Chunks Value",Tins & Jars,1.15,1.67,false
+SKU0067,"Chickpeas",Tins & Jars,1.14,1.82,false
+SKU0068,"Chickpeas Value",Tins & Jars,1.25,1.94,false
+SKU0069,"Sweetcorn",Tins & Jars,0.96,1.35,false
+SKU0070,"Sweetcorn Value",Tins & Jars,1.09,1.64,false
+SKU0071,"Pasta Sauce",Tins & Jars,1.33,1.98,false
+SKU0072,"Pasta Sauce Value",Tins & Jars,1.50,2.02,false
+SKU0073,"Coconut Milk",Tins & Jars,0.32,0.42,false
+SKU0074,"Coconut Milk Value",Tins & Jars,0.35,0.56,false
+SKU0075,"Kidney Beans",Tins & Jars,0.81,1.22,false
+SKU0076,"Kidney Beans Value",Tins & Jars,0.84,1.13,false
+SKU0077,"Penne Pasta 500g",Dry Goods,0.99,1.42,false
+SKU0078,"Penne Pasta 500g Wholegrain",Dry Goods,1.10,1.69,false
+SKU0079,"Basmati Rice 1kg",Dry Goods,0.83,1.24,false
+SKU0080,"Basmati Rice 1kg Wholegrain",Dry Goods,0.89,1.28,false
+SKU0081,"Porridge Oats",Dry Goods,1.22,1.71,false
+SKU0082,"Porridge Oats Wholegrain",Dry Goods,1.25,1.81,false
+SKU0083,"Cornflakes",Dry Goods,1.40,2.05,false
+SKU0084,"Cornflakes Wholegrain",Dry Goods,1.49,2.00,false
+SKU0085,"Plain Flour",Dry Goods,0.75,1.19,false
+SKU0086,"Plain Flour Wholegrain",Dry Goods,0.85,1.21,false
+SKU0087,"Granulated Sugar",Dry Goods,0.67,1.04,false
+SKU0088,"Granulated Sugar Wholegrain",Dry Goods,0.71,0.97,false
+SKU0089,"Instant Coffee",Dry Goods,1.46,1.94,false
+SKU0090,"Instant Coffee Wholegrain",Dry Goods,1.62,2.43,false
+SKU0091,"Tea Bags 80",Dry Goods,1.43,2.20,false
+SKU0092,"Tea Bags 80 Wholegrain",Dry Goods,1.47,1.95,false
+SKU0093,"Orange Juice 1L",Drinks,0.74,1.02,false
+SKU0094,"Orange Juice 1L Zero",Drinks,0.81,1.19,false
+SKU0095,"Cola 2L",Drinks,0.65,0.92,false
+SKU0096,"Cola 2L Zero",Drinks,0.68,1.05,false
+SKU0097,"Sparkling Water 6pk",Drinks,1.09,1.73,false
+SKU0098,"Sparkling Water 6pk Zero",Drinks,1.13,1.64,false
+SKU0099,"Apple Juice 1L",Drinks,2.84,4.28,false
+SKU0100,"Apple Juice 1L Zero",Drinks,3.19,4.45,false
+SKU0101,"Energy Drink 4pk",Drinks,2.40,3.52,false
+SKU0102,"Energy Drink 4pk Zero",Drinks,2.60,3.81,false
+SKU0103,"Lemonade 2L",Drinks,2.96,4.53,false
+SKU0104,"Lemonade 2L Zero",Drinks,3.24,4.86,false
+SKU0105,"Razor Blades 4pk",Health & Beauty,4.01,6.27,false
+SKU0106,"Razor Blades 4pk Sensitive",Health & Beauty,4.54,6.46,false
+SKU0107,"Electric Toothbrush Heads",Health & Beauty,4.96,7.69,false
+SKU0108,"Electric Toothbrush Heads Sensitive",Health & Beauty,5.61,8.46,false
+SKU0109,"Face Moisturiser",Health & Beauty,3.36,5.34,false
+SKU0110,"Face Moisturiser Sensitive",Health & Beauty,3.50,5.21,false
+SKU0111,"Vitamin C Tablets",Health & Beauty,6.30,9.54,false
+SKU0112,"Vitamin C Tablets Sensitive",Health & Beauty,7.10,11.15,false
+SKU0113,"Deodorant",Health & Beauty,4.56,6.03,false
+SKU0114,"Deodorant Sensitive",Health & Beauty,5.17,7.77,false
+SKU0115,"Shampoo 400ml",Health & Beauty,4.38,6.50,false
+SKU0116,"Shampoo 400ml Sensitive",Health & Beauty,4.72,6.20,false
+SKU0117,"Vodka 70cl","Beer, Wine & Spirits",4.98,6.66,false
+SKU0118,"Vodka 70cl Premium","Beer, Wine & Spirits",5.60,8.69,false
+SKU0119,"Gin 70cl","Beer, Wine & Spirits",4.85,6.35,false
+SKU0120,"Gin 70cl Premium","Beer, Wine & Spirits",5.36,7.40,false
+SKU0121,"Red Wine","Beer, Wine & Spirits",10.26,16.14,false
+SKU0122,"Red Wine Premium","Beer, Wine & Spirits",10.79,14.35,false
+SKU0123,"Prosecco","Beer, Wine & Spirits",6.40,9.24,false
+SKU0124,"Prosecco Premium","Beer, Wine & Spirits",6.65,10.08,false
+SKU0125,"Lager 4pk","Beer, Wine & Spirits",8.88,13.12,false
+SKU0126,"Lager 4pk Premium","Beer, Wine & Spirits",9.92,14.95,false
+SKU0127,"Whisky 70cl","Beer, Wine & Spirits",5.17,6.81,false
+SKU0128,"Whisky 70cl Premium","Beer, Wine & Spirits",5.43,7.45,false
