@@ -10,7 +10,7 @@ An AI assistant for a small grocery store. It finds products where the stock rec
 
 1. **Finds the gaps.** For every product: expected stock = opening count + deliveries booked in − till sales − recorded waste. Anything that doesn't match the closing shelf count is a discrepancy, ranked by £ value.
 2. **Investigates each one.** A Claude agent calls tools that run SQL against PostgreSQL (stock summary, deliveries, weekly sales, wastage, look-alike products), and keeps calling them until it has enough evidence.
-3. **Explains it for a manager.** The agent must finish with a `report_finding` tool call, so the output is always structured: cause, confidence, a 2–3 sentence explanation, one recommended action, and the evidence it used.
+3. **Explains it for a manager.** The agent must finish with a `report_finding` tool call, so the output is always structured: cause, confidence, a 2 to 3 sentence explanation, one recommended action, and the evidence it used.
 
 It tells apart five causes: **shrinkage/theft, missed delivery, till scanning error (look-alike products), unrecorded waste, and a delivery note booked in twice.**
 
@@ -44,9 +44,24 @@ src/service.ts  ── picks the engine ──►  src/investigate.ts   Claude a
 | Engine | Cause accuracy (20 planted cases) |
 | --- | --- |
 | Rule-based baseline (`npm run eval:baseline`) | **19 / 20 = 95%** |
-| Claude agent (`npm run eval`) | run with your API key and record here |
+| Claude agent (`npm run eval`) | **19 / 20 = 95%** |
 
-The baseline's one miss is instructive: a theft case where the missing amount happens by chance to equal one delivery's size, so a fixed rule calls it a missed delivery. That is exactly the kind of case an agent that can weigh the wider evidence should get right.
+Both score 95%, but they miss **different** cases, which is the more useful finding:
+
+- **The baseline misses SKU0116**, a theft case where the missing amount happens by chance to equal one delivery's size, so a fixed rule calls it a missed delivery. **The Claude agent gets it right**, because it weighs the wider evidence instead of matching one number.
+- **The Claude agent misses SKU0108**, a missed delivery that it calls shrinkage with medium confidence. **The baseline gets it right.**
+
+On the 18 cases where the two engines agree, both are right every time. So in a real store the sensible design is to act when they agree and send any disagreement to a person to check, rather than trusting either engine alone. Per-case results are in `eval/results-ai.json` and `eval/results-baseline.json`.
+
+Claude agent confusion table (rows are the true cause, columns what the agent said):
+
+| True cause | Shrinkage | Missed delivery | Scanning error | Unrecorded waste | Double-counted delivery |
+| --- | --- | --- | --- | --- | --- |
+| Shrinkage | 4 | 0 | 0 | 0 | 0 |
+| Missed delivery | 1 | 3 | 0 | 0 | 0 |
+| Scanning error | 0 | 0 | 4 | 0 | 0 |
+| Unrecorded waste | 0 | 0 | 0 | 4 | 0 |
+| Double-counted delivery | 0 | 0 | 0 | 0 | 4 |
 
 ## Run it
 
